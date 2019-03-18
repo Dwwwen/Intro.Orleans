@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Intro.Orleans.Client
+namespace Intro.OrleansBasics.Client
 {
     class Program
     {

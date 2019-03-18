@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Intro.Orleans.Silo
+namespace Intro.OrleansBasics.Silo
 {
     class Program
     {

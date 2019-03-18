@@ -3,13 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro.Orleans.Grains", "Intro.Orleans.Grains\Intro.Orleans.Grains.csproj", "{580D5594-395B-4B16-9C66-D03AAC0BDA43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro.OrleansBasics.Grains", "Intro.Orleans.Grains\Intro.OrleansBasics.Grains.csproj", "{580D5594-395B-4B16-9C66-D03AAC0BDA43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{708C72C6-4558-42A9-8D8F-B2EEEAD29882} = {708C72C6-4558-42A9-8D8F-B2EEEAD29882}
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro.Orleans.Silo", "Intro.Orleans.Silo\Intro.Orleans.Silo.csproj", "{3900C9C1-956B-4140-87CD-5D081850D6DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro.OrleansBasics.Silo", "Intro.Orleans.Silo\Intro.OrleansBasics.Silo.csproj", "{3900C9C1-956B-4140-87CD-5D081850D6DF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro.Orleans.Client", "Intro.Orleans.Client\Intro.Orleans.Client.csproj", "{A509EF4C-24EC-4982-9754-8A1D19B157F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro.OrleansBasics.Client", "Intro.Orleans.Client\Intro.OrleansBasics.Client.csproj", "{A509EF4C-24EC-4982-9754-8A1D19B157F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro.Orleans.GrainInterfaces", "Intro.Orleans.GrainInterfaces\Intro.Orleans.GrainInterfaces.csproj", "{708C72C6-4558-42A9-8D8F-B2EEEAD29882}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intro.OrleansBasics.GrainInterfaces", "Intro.Orleans.GrainInterfaces\Intro.OrleansBasics.GrainInterfaces.csproj", "{708C72C6-4558-42A9-8D8F-B2EEEAD29882}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

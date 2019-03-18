@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Intro.Orleans.GrainInterfaces\Intro.OrleansBasics.GrainInterfaces.csproj" />
+  </ItemGroup>
+
 </Project>
