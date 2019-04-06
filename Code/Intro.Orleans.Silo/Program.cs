@@ -10,9 +10,10 @@ namespace Intro.OrleansBasics.Silo
 {
     class Program
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello grain silo!");
+            return RunMainAsync().Result;
         }
 
         private static async Task<int> RunMainAsync()

@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.Orleans.Client" Version="2.2.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Intro.Orleans.GrainInterfaces\Intro.OrleansBasics.GrainInterfaces.csproj" />
+  </ItemGroup>
+
 </Project>
